@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Matematika</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="start-page">
+      <h1>Selamat datang di Quiz MATEMATIKA</h1>
+      <div class="start-btn">mulai</div>
+    </div>
+
+    <section class="rule-section">
+      <div class="rule-header">
+        <h1>Quiz Matematika</h1>
+      </div>
+
+      <div class="rule-text">
+        <p class="rule-desc">1. Kamu diberikan waktu 30 detik untuk menjawab soal.</p>
+        <p class="rule-desc">2. kamu tidak dapat keluar dari quiz setelah memulai quiz.</p>
+        <p class="rule-desc">3. kamu hanya bisa memilih jawaban hanya sekali.</p>
+        <p class="rule-desc">4. kamu akan mendapat score dari jawaban yang kamu pilih.</p>
+        <p class="rule-desc">5. jumlah soal ada 10 soal.</p>
+      </div>
+
+      <div class="button">
+        <div class="exit-btn">Exit Quiz</div>
+        <div class="continue-btn">Continue</div>
+      </div>
+    </section>
+
+    <div class="user-page">
+      <div class="alert"></div>
+      <div class="input-container">
+        <label for="">Masukkan Username</label>
+        <input type="text" placeholder="Username" class="user-input" />
+      </div>
+
+      <div class="start-quiz-btn">Mulai Quiz</div>
+    </div>
+
+    <section class="question-page">
+      <div class="header">
+        <h1>Quiz Matematika</h1>
+        <div class="username"></div>
+        <div class="time">
+          <p class="time-text">Time-left</p>
+          <span class="counter"></span>
+        </div>
+      </div>
+      <div class="soal"></div>
+
+      <div class="option-list"></div>
+
+      <div class="next-btn">next</div>
+    </section>
+
+    <section class="result-page">
+      <div class="result-box">
+        <div class="result-content">
+          <h1 class="result-heading"></h1>
+
+          <div class="info">
+            <div class="info-1">Benar</div>
+            <div class="info-2">Salah</div>
+            <div class="info-3">Jumlah soal</div>
+          </div>
+
+          <div class="result-icon">
+            <i class="bx bxs-crown"></i>
+          </div>
+          <div class="user-score">
+            <div class="soal-benar card">
+              <span class="correct-number"></span>
+            </div>
+            <div class="soal-salah card">
+              <span class="incorrect-number"></span>
+            </div>
+            <div class="total-soal card">
+              <span class="total"></span>
+            </div>
+          </div>
+
+          <div class="result-btn">
+            <div class="quit-btn">Quit quiz</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="question.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
