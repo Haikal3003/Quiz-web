@@ -57,6 +57,6 @@ let questions = [
     number: 10,
     question: 'Nilai dari : 50 / 2 + 25 ?',
     answer: '50',
-    option: ['25', '20', '15', '10'],
+    option: ['25', '20', '50', '10'],
   },
 ];
